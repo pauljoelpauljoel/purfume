@@ -1,322 +1,682 @@
 [
   {
     "id": 1,
-    "name": "Aura 476",
-    "brand": "Aura",
-    "price": "270.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod1.png",
-    "rating": 4,
-    "is_trending": true
+    "name": "Nova 304",
+    "brand": "Nova",
+    "price": "442.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/prod2.png",
+    "rating": "4.4",
+    "is_trending": true,
+    "category": "Fresh",
+    "ml": "50ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   },
   {
     "id": 2,
-    "name": "Lumina 721",
-    "brand": "Lumina",
-    "price": "415.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.5,
-    "is_trending": true
+    "name": "Nova 499",
+    "brand": "Nova",
+    "price": "298.50",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/prod3.png",
+    "rating": "4.7",
+    "is_trending": true,
+    "category": "Oriental",
+    "ml": "100ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
   },
   {
     "id": 3,
-    "name": "Quantum 910",
+    "name": "Quantum 586",
     "brand": "Quantum",
-    "price": "185.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.2,
-    "is_trending": true
+    "price": "868.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/hero.png",
+    "rating": "3.7",
+    "is_trending": true,
+    "category": "Fresh",
+    "ml": "150ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   },
   {
     "id": 4,
-    "name": "Lumina 475",
-    "brand": "Lumina",
-    "price": "87.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod1.png",
-    "rating": 4.1,
-    "is_trending": true
+    "name": "Eon 292",
+    "brand": "Eon",
+    "price": "504.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.8",
+    "is_trending": true,
+    "category": "Citrus",
+    "ml": "100ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 5,
-    "name": "Quantum 578",
-    "brand": "Quantum",
-    "price": "242.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "name": "Nova 874",
+    "brand": "Nova",
+    "price": "253.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
     "image": "assets/images/prod1.png",
-    "rating": 4.3,
-    "is_trending": true
+    "rating": "4.4",
+    "is_trending": true,
+    "category": "Citrus",
+    "ml": "50ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 6,
-    "name": "Aura 155",
-    "brand": "Aura",
-    "price": "271.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod1.png",
-    "rating": 4.9,
-    "is_trending": true
+    "name": "Vortex 692",
+    "brand": "Vortex",
+    "price": "420.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/prod2.png",
+    "rating": "3.8",
+    "is_trending": true,
+    "category": "Citrus",
+    "ml": "50ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 7,
-    "name": "Quantum 129",
-    "brand": "Quantum",
-    "price": "360.00",
-    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.5,
-    "is_trending": false
+    "name": "Aura 147",
+    "brand": "Aura",
+    "price": "466.50",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/prod3.png",
+    "rating": "3.9",
+    "is_trending": true,
+    "category": "Citrus",
+    "ml": "100ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 8,
-    "name": "Aura 268",
-    "brand": "Aura",
-    "price": "134.00",
-    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 5,
-    "is_trending": false
+    "name": "Vortex 656",
+    "brand": "Vortex",
+    "price": "265.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/hero.png",
+    "rating": "4.9",
+    "is_trending": true,
+    "category": "Oriental",
+    "ml": "50ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
   },
   {
     "id": 9,
-    "name": "Lumina 749",
-    "brand": "Lumina",
-    "price": "192.00",
-    "description": "A futuristic blend of amber & vanilla with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 5,
-    "is_trending": false
+    "name": "Nova 600",
+    "brand": "Nova",
+    "price": "363.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.4",
+    "is_trending": false,
+    "category": "Oriental",
+    "ml": "50ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
   },
   {
     "id": 10,
-    "name": "Quantum 873",
-    "brand": "Quantum",
-    "price": "263.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.8,
-    "is_trending": false
+    "name": "Nova 465",
+    "brand": "Nova",
+    "price": "622.50",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/prod1.png",
+    "rating": "4.5",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "100ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 11,
-    "name": "Quantum 492",
-    "brand": "Quantum",
-    "price": "201.00",
-    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
+    "name": "Obsidian 615",
+    "brand": "Obsidian",
+    "price": "295.50",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
     "image": "assets/images/prod2.png",
-    "rating": 5,
-    "is_trending": false
+    "rating": "3.9",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "100ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 12,
-    "name": "Vortex 152",
-    "brand": "Vortex",
-    "price": "297.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.7,
-    "is_trending": false
+    "name": "Aura 346",
+    "brand": "Aura",
+    "price": "328.00",
+    "description": "A romantic bouquet of blooming florals with a soft, elegant finish.",
+    "image": "assets/images/prod3.png",
+    "rating": "4.3",
+    "is_trending": false,
+    "category": "Floral",
+    "ml": "150ml",
+    "notes": {
+      "top": "Peony, Rose",
+      "heart": "Lily of the Valley, Magnolia",
+      "base": "White Woods, Amber"
+    }
   },
   {
     "id": 13,
-    "name": "Nova 200",
-    "brand": "Nova",
-    "price": "120.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.9,
-    "is_trending": false
+    "name": "Lumina 638",
+    "brand": "Lumina",
+    "price": "246.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/hero.png",
+    "rating": "3.5",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "50ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   },
   {
     "id": 14,
-    "name": "Vortex 825",
-    "brand": "Vortex",
-    "price": "161.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.3,
-    "is_trending": false
+    "name": "Aura 629",
+    "brand": "Aura",
+    "price": "694.00",
+    "description": "A romantic bouquet of blooming florals with a soft, elegant finish.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.0",
+    "is_trending": false,
+    "category": "Floral",
+    "ml": "150ml",
+    "notes": {
+      "top": "Peony, Rose",
+      "heart": "Lily of the Valley, Magnolia",
+      "base": "White Woods, Amber"
+    }
   },
   {
     "id": 15,
-    "name": "Zephyr 586",
-    "brand": "Zephyr",
-    "price": "246.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.9,
-    "is_trending": false
+    "name": "Nova 642",
+    "brand": "Nova",
+    "price": "392.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/prod1.png",
+    "rating": "4.9",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "150ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 16,
-    "name": "Nova 806",
-    "brand": "Nova",
-    "price": "186.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.1,
-    "is_trending": false
+    "name": "Eon 576",
+    "brand": "Eon",
+    "price": "640.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/prod2.png",
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Oriental",
+    "ml": "150ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
   },
   {
     "id": 17,
-    "name": "Aura 721",
-    "brand": "Aura",
-    "price": "295.00",
-    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
-    "image": "assets/images/prod1.png",
-    "rating": 4.3,
-    "is_trending": false
+    "name": "Lumina 370",
+    "brand": "Lumina",
+    "price": "369.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/prod3.png",
+    "rating": "4.0",
+    "is_trending": false,
+    "category": "Oriental",
+    "ml": "50ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
   },
   {
     "id": 18,
-    "name": "Zephyr 128",
-    "brand": "Zephyr",
-    "price": "296.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.8,
-    "is_trending": false
+    "name": "Quantum 239",
+    "brand": "Quantum",
+    "price": "649.50",
+    "description": "A romantic bouquet of blooming florals with a soft, elegant finish.",
+    "image": "assets/images/hero.png",
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Floral",
+    "ml": "100ml",
+    "notes": {
+      "top": "Peony, Rose",
+      "heart": "Lily of the Valley, Magnolia",
+      "base": "White Woods, Amber"
+    }
   },
   {
     "id": 19,
-    "name": "Lumina 731",
-    "brand": "Lumina",
-    "price": "286.00",
-    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.3,
-    "is_trending": false
+    "name": "Nova 225",
+    "brand": "Nova",
+    "price": "864.00",
+    "description": "A deep, earthy scent with rich woody undertones and a warm amber finish.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.8",
+    "is_trending": false,
+    "category": "Woody",
+    "ml": "150ml",
+    "notes": {
+      "top": "Cedarwood, Bergamot",
+      "heart": "Sandalwood, Patchouli",
+      "base": "Amber, Vetiver"
+    }
   },
   {
     "id": 20,
-    "name": "Zephyr 354",
-    "brand": "Zephyr",
-    "price": "442.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "name": "Lumina 264",
+    "brand": "Lumina",
+    "price": "153.00",
+    "description": "A deep, earthy scent with rich woody undertones and a warm amber finish.",
     "image": "assets/images/prod1.png",
-    "rating": 4.6,
-    "is_trending": false
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Woody",
+    "ml": "50ml",
+    "notes": {
+      "top": "Cedarwood, Bergamot",
+      "heart": "Sandalwood, Patchouli",
+      "base": "Amber, Vetiver"
+    }
   },
   {
     "id": 21,
-    "name": "Eon 947",
-    "brand": "Eon",
-    "price": "419.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "name": "Obsidian 211",
+    "brand": "Obsidian",
+    "price": "505.50",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
     "image": "assets/images/prod2.png",
-    "rating": 4,
-    "is_trending": false
+    "rating": "3.8",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "100ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 22,
-    "name": "Quantum 637",
-    "brand": "Quantum",
-    "price": "241.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 5,
-    "is_trending": false
+    "name": "Obsidian 784",
+    "brand": "Obsidian",
+    "price": "627.00",
+    "description": "A deep, earthy scent with rich woody undertones and a warm amber finish.",
+    "image": "assets/images/prod3.png",
+    "rating": "4.4",
+    "is_trending": false,
+    "category": "Woody",
+    "ml": "100ml",
+    "notes": {
+      "top": "Cedarwood, Bergamot",
+      "heart": "Sandalwood, Patchouli",
+      "base": "Amber, Vetiver"
+    }
   },
   {
     "id": 23,
-    "name": "Nova 302",
-    "brand": "Nova",
-    "price": "234.00",
-    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.1,
-    "is_trending": false
+    "name": "Obsidian 135",
+    "brand": "Obsidian",
+    "price": "418.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/hero.png",
+    "rating": "3.9",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "50ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 24,
-    "name": "Lumina 587",
-    "brand": "Lumina",
-    "price": "115.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4,
-    "is_trending": false
+    "name": "Aura 196",
+    "brand": "Aura",
+    "price": "416.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "150ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   },
   {
     "id": 25,
-    "name": "Zephyr 853",
+    "name": "Zephyr 876",
     "brand": "Zephyr",
-    "price": "410.00",
-    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "price": "332.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
     "image": "assets/images/prod1.png",
-    "rating": 4.4,
-    "is_trending": false
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "50ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   },
   {
     "id": 26,
-    "name": "Lumina 920",
-    "brand": "Lumina",
-    "price": "182.00",
-    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
-    "image": "assets/images/prod1.png",
-    "rating": 4,
-    "is_trending": false
+    "name": "Quantum 972",
+    "brand": "Quantum",
+    "price": "816.00",
+    "description": "A romantic bouquet of blooming florals with a soft, elegant finish.",
+    "image": "assets/images/prod2.png",
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Floral",
+    "ml": "150ml",
+    "notes": {
+      "top": "Peony, Rose",
+      "heart": "Lily of the Valley, Magnolia",
+      "base": "White Woods, Amber"
+    }
   },
   {
     "id": 27,
-    "name": "Aura 870",
-    "brand": "Aura",
-    "price": "88.00",
-    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "name": "Quantum 264",
+    "brand": "Quantum",
+    "price": "660.00",
+    "description": "A deep, earthy scent with rich woody undertones and a warm amber finish.",
     "image": "assets/images/prod3.png",
-    "rating": 4.2,
-    "is_trending": false
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Woody",
+    "ml": "150ml",
+    "notes": {
+      "top": "Cedarwood, Bergamot",
+      "heart": "Sandalwood, Patchouli",
+      "base": "Amber, Vetiver"
+    }
   },
   {
     "id": 28,
-    "name": "Vortex 490",
-    "brand": "Vortex",
-    "price": "290.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod1.png",
-    "rating": 4.3,
-    "is_trending": false
+    "name": "Eon 695",
+    "brand": "Eon",
+    "price": "620.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/hero.png",
+    "rating": "4.0",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "150ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   },
   {
     "id": 29,
-    "name": "Eon 156",
-    "brand": "Eon",
-    "price": "163.00",
-    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.2,
-    "is_trending": false
+    "name": "Nova 181",
+    "brand": "Nova",
+    "price": "708.00",
+    "description": "A deep, earthy scent with rich woody undertones and a warm amber finish.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.7",
+    "is_trending": false,
+    "category": "Woody",
+    "ml": "150ml",
+    "notes": {
+      "top": "Cedarwood, Bergamot",
+      "heart": "Sandalwood, Patchouli",
+      "base": "Amber, Vetiver"
+    }
   },
   {
     "id": 30,
-    "name": "Zephyr 670",
-    "brand": "Zephyr",
-    "price": "385.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
-    "image": "assets/images/prod2.png",
-    "rating": 4.3,
-    "is_trending": false
+    "name": "Nova 472",
+    "brand": "Nova",
+    "price": "371.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/prod1.png",
+    "rating": "4.5",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "50ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
   },
   {
     "id": 31,
-    "name": "Obsidian 803",
-    "brand": "Obsidian",
-    "price": "291.00",
-    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
-    "image": "assets/images/prod3.png",
-    "rating": 4.8,
-    "is_trending": false
+    "name": "Vortex 315",
+    "brand": "Vortex",
+    "price": "586.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/prod2.png",
+    "rating": "4.1",
+    "is_trending": false,
+    "category": "Oriental",
+    "ml": "150ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
   },
   {
     "id": 32,
-    "name": "Zephyr 484",
+    "name": "Zephyr 496",
     "brand": "Zephyr",
-    "price": "323.00",
-    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "price": "880.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/prod3.png",
+    "rating": "4.6",
+    "is_trending": false,
+    "category": "Oriental",
+    "ml": "150ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Obsidian 497",
+    "brand": "Obsidian",
+    "price": "259.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/hero.png",
+    "rating": "4.6",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "50ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Quantum 838",
+    "brand": "Quantum",
+    "price": "370.00",
+    "description": "A luxurious and exotic blend of spices, sweet florals, and dark woods.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.8",
+    "is_trending": false,
+    "category": "Oriental",
+    "ml": "150ml",
+    "notes": {
+      "top": "Saffron, Orange Blossom",
+      "heart": "Oud, Rose",
+      "base": "Vanilla, Leather"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Lumina 446",
+    "brand": "Lumina",
+    "price": "361.50",
+    "description": "A romantic bouquet of blooming florals with a soft, elegant finish.",
+    "image": "assets/images/prod1.png",
+    "rating": "3.5",
+    "is_trending": false,
+    "category": "Floral",
+    "ml": "100ml",
+    "notes": {
+      "top": "Peony, Rose",
+      "heart": "Lily of the Valley, Magnolia",
+      "base": "White Woods, Amber"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Obsidian 454",
+    "brand": "Obsidian",
+    "price": "441.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
     "image": "assets/images/prod2.png",
-    "rating": 4.4,
-    "is_trending": false
+    "rating": "4.6",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "50ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Aura 880",
+    "brand": "Aura",
+    "price": "490.50",
+    "description": "A romantic bouquet of blooming florals with a soft, elegant finish.",
+    "image": "assets/images/prod3.png",
+    "rating": "4.6",
+    "is_trending": false,
+    "category": "Floral",
+    "ml": "100ml",
+    "notes": {
+      "top": "Peony, Rose",
+      "heart": "Lily of the Valley, Magnolia",
+      "base": "White Woods, Amber"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Zephyr 898",
+    "brand": "Zephyr",
+    "price": "378.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/hero.png",
+    "rating": "4.8",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "100ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Lumina 240",
+    "brand": "Lumina",
+    "price": "177.00",
+    "description": "A vibrant and zesty fragrance radiating pure sunshine and energy.",
+    "image": "assets/images/cosmic_perfume.png",
+    "rating": "4.2",
+    "is_trending": false,
+    "category": "Citrus",
+    "ml": "50ml",
+    "notes": {
+      "top": "Grapefruit, Mandarin",
+      "heart": "Neroli, Jasmine",
+      "base": "Cedar, Musk"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Zephyr 552",
+    "brand": "Zephyr",
+    "price": "197.00",
+    "description": "An invigorating burst of oceanic freshness with a crisp, clean trail.",
+    "image": "assets/images/prod1.png",
+    "rating": "4.5",
+    "is_trending": false,
+    "category": "Fresh",
+    "ml": "50ml",
+    "notes": {
+      "top": "Lemon, Mint",
+      "heart": "Sea Salt, Aquatic",
+      "base": "White Musk, Oakmoss"
+    }
   }
 ]
