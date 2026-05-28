@@ -7,6 +7,6 @@
         <a href="contact.php">Contact</a>
     </div>
     <div class="nav-actions">
-        <button id="btn-logout" onclick="sessionStorage.removeItem('isLoggedIn'); window.location.href='signin.php';">Sign Out</button>
+        <a href="signin.php" id="btn-signin" class="btn-primary" style="text-decoration:none;">Sign In</a>
     </div>
 </nav>
