@@ -7,6 +7,6 @@
         <a href="contact.php">Contact</a>
     </div>
     <div class="nav-actions">
-        <a href="signin.php" id="btn-signin" class="btn-primary" style="text-decoration:none;">Sign In</a>
+        <button id="btn-auth" class="btn-primary" onclick="handleAuth()">Sign In</button>
     </div>
 </nav>

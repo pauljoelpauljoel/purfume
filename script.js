@@ -1,4 +1,32 @@
+// ─── Auth Button Logic ────────────────────────────────────────────────────────
+function updateAuthButton() {
+    const btn = document.getElementById('btn-auth');
+    if (!btn) return;
+    const isLoggedIn = sessionStorage.getItem('isLoggedIn');
+    if (isLoggedIn) {
+        btn.textContent = 'Sign Out';
+    } else {
+        btn.textContent = 'Sign In';
+    }
+}
+
+function handleAuth() {
+    const isLoggedIn = sessionStorage.getItem('isLoggedIn');
+    if (isLoggedIn) {
+        // Sign out
+        sessionStorage.removeItem('isLoggedIn');
+        window.location.href = 'signin.php';
+    } else {
+        // Go to sign in page
+        window.location.href = 'signin.php';
+    }
+}
+// ─────────────────────────────────────────────────────────────────────────────
+
 document.addEventListener('DOMContentLoaded', () => {
+    // Update navbar auth button based on login state
+    updateAuthButton();
+
     // Parallax mouse movement
     document.addEventListener('mousemove', (e) => {
         const x = (e.clientX / window.innerWidth) - 0.5;
