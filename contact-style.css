@@ -1,0 +1,230 @@
+/* Moon Theme Styles for Contact Us Page */
+
+.moon-theme {
+    background: #020408; /* Space black */
+    color: #e0e6ed; /* Moon gray/silver */
+    overflow-x: hidden;
+}
+
+/* Lunar Loader */
+.moon-spinner {
+    border-color: rgba(0, 243, 255, 0.2) !important;
+    border-top-color: #00f3ff !important;
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.5);
+}
+
+/* Lunar Background */
+.lunar-background {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.space-sky {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle at 50% 30%, #051024 0%, #020408 100%);
+}
+
+.earth-visible {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #4b8bff 0%, #002266 80%);
+    border-radius: 50%;
+    box-shadow: inset -20px -20px 40px rgba(0,0,0,0.8), 0 0 40px rgba(75, 139, 255, 0.4);
+    animation: float 20s infinite ease-in-out;
+}
+
+.moon-fog {
+    position: absolute;
+    bottom: 0; left: 0; width: 100%; height: 60%;
+    background: linear-gradient(0deg, rgba(200, 220, 255, 0.05) 0%, transparent 100%);
+    animation: fog-drift 15s infinite alternate linear;
+}
+
+@keyframes fog-drift {
+    0% { transform: translateX(-5%); opacity: 0.5; }
+    100% { transform: translateX(5%); opacity: 1; }
+}
+
+/* Moon Floor (Realistic Photo) */
+.moon-floor {
+    position: absolute;
+    bottom: -50px;
+    left: -5%;
+    width: 110%;
+    height: 400px;
+    z-index: 1;
+}
+
+.real-moon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    filter: brightness(0.6) contrast(1.2);
+    animation: slow-pan 30s infinite alternate linear;
+}
+
+@keyframes slow-pan {
+    0% { transform: translateX(-2%) scale(1.05); }
+    100% { transform: translateX(2%) scale(1.05); }
+}
+
+/* Floating Bottles in Moon Gravity */
+.lunar-bottle {
+    position: absolute;
+    width: 80px; height: 80px;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 30px rgba(0, 243, 255, 0.2)) hue-rotate(-20deg);
+    z-index: 2;
+}
+.bottle-a { top: 30%; left: 10%; animation: lunar-float 12s infinite alternate ease-in-out; }
+.bottle-b { top: 50%; right: 5%; animation: lunar-float 15s infinite alternate-reverse ease-in-out; }
+.bottle-c { top: 15%; right: 25%; animation: lunar-float 14s infinite alternate ease-in-out; width: 60px; height: 60px; filter: drop-shadow(0 15px 25px rgba(0, 243, 255, 0.3)) hue-rotate(40deg); }
+.bottle-d { top: 60%; left: 20%; animation: lunar-float 16s infinite alternate-reverse ease-in-out; width: 90px; height: 90px; filter: drop-shadow(0 25px 35px rgba(0, 243, 255, 0.4)) hue-rotate(180deg); }
+.bottle-e { top: 20%; left: 40%; animation: lunar-float 11s infinite alternate ease-in-out; width: 70px; height: 70px; filter: drop-shadow(0 20px 30px rgba(0, 243, 255, 0.2)) hue-rotate(-80deg); }
+
+@keyframes lunar-float {
+    0% { transform: translateY(0) rotate(0deg); }
+    100% { transform: translateY(-80px) rotate(15deg); }
+}
+
+/* Layout */
+.lunar-main {
+    position: relative;
+    z-index: 10;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 120px 20px 50px 20px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.lunar-title {
+    font-size: 48px;
+    color: #e0e6ed;
+    text-shadow: 0 0 20px rgba(0, 243, 255, 0.4);
+    margin-bottom: 10px;
+}
+.lunar-subtitle {
+    font-size: 18px;
+    color: #8892b0;
+}
+
+.contact-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Top Info Section */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro-text {
+    padding: 40px;
+    text-align: center;
+    background: rgba(0, 243, 255, 0.02);
+    border-color: rgba(0, 243, 255, 0.2);
+}
+
+.intro-text h2 {
+    color: #00f3ff;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    color: #a0aec0;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* Hologram Cards Grid */
+.hologram-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.holo-card {
+    background: rgba(0, 243, 255, 0.05);
+    border: 1px solid rgba(0, 243, 255, 0.2);
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.holo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 243, 255, 0.2);
+    border-color: #00f3ff;
+}
+
+.holo-card h4 {
+    color: #00f3ff;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.holo-card p {
+    color: #e0e6ed;
+    font-size: 15px;
+}
+
+/* Control Center Form (Center/Bottom) */
+.moonbase-control-center {
+    padding: 50px;
+}
+
+.moonbase-control-center h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.lunar-form .input-group {
+    margin-bottom: 25px;
+}
+.lunar-form .input-group input,
+.lunar-form .input-group textarea {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: rgba(0, 243, 255, 0.2);
+    color: #fff;
+}
+.lunar-form .input-group input:focus,
+.lunar-form .input-group textarea:focus {
+    border-color: #00f3ff;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+}
+
+.lunar-btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #00f3ff;
+    color: #00f3ff;
+    box-shadow: none;
+}
+.lunar-btn:hover {
+    background: #00f3ff;
+    color: #000;
+    box-shadow: 0 0 30px rgba(0, 243, 255, 0.6);
+}

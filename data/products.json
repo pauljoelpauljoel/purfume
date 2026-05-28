@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Aura 476",
+    "brand": "Aura",
+    "price": "270.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4,
+    "is_trending": true
+  },
+  {
+    "id": 2,
+    "name": "Lumina 721",
+    "brand": "Lumina",
+    "price": "415.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.5,
+    "is_trending": true
+  },
+  {
+    "id": 3,
+    "name": "Quantum 910",
+    "brand": "Quantum",
+    "price": "185.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.2,
+    "is_trending": true
+  },
+  {
+    "id": 4,
+    "name": "Lumina 475",
+    "brand": "Lumina",
+    "price": "87.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.1,
+    "is_trending": true
+  },
+  {
+    "id": 5,
+    "name": "Quantum 578",
+    "brand": "Quantum",
+    "price": "242.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.3,
+    "is_trending": true
+  },
+  {
+    "id": 6,
+    "name": "Aura 155",
+    "brand": "Aura",
+    "price": "271.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.9,
+    "is_trending": true
+  },
+  {
+    "id": 7,
+    "name": "Quantum 129",
+    "brand": "Quantum",
+    "price": "360.00",
+    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.5,
+    "is_trending": false
+  },
+  {
+    "id": 8,
+    "name": "Aura 268",
+    "brand": "Aura",
+    "price": "134.00",
+    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 5,
+    "is_trending": false
+  },
+  {
+    "id": 9,
+    "name": "Lumina 749",
+    "brand": "Lumina",
+    "price": "192.00",
+    "description": "A futuristic blend of amber & vanilla with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 5,
+    "is_trending": false
+  },
+  {
+    "id": 10,
+    "name": "Quantum 873",
+    "brand": "Quantum",
+    "price": "263.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.8,
+    "is_trending": false
+  },
+  {
+    "id": 11,
+    "name": "Quantum 492",
+    "brand": "Quantum",
+    "price": "201.00",
+    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 5,
+    "is_trending": false
+  },
+  {
+    "id": 12,
+    "name": "Vortex 152",
+    "brand": "Vortex",
+    "price": "297.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.7,
+    "is_trending": false
+  },
+  {
+    "id": 13,
+    "name": "Nova 200",
+    "brand": "Nova",
+    "price": "120.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.9,
+    "is_trending": false
+  },
+  {
+    "id": 14,
+    "name": "Vortex 825",
+    "brand": "Vortex",
+    "price": "161.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.3,
+    "is_trending": false
+  },
+  {
+    "id": 15,
+    "name": "Zephyr 586",
+    "brand": "Zephyr",
+    "price": "246.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.9,
+    "is_trending": false
+  },
+  {
+    "id": 16,
+    "name": "Nova 806",
+    "brand": "Nova",
+    "price": "186.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.1,
+    "is_trending": false
+  },
+  {
+    "id": 17,
+    "name": "Aura 721",
+    "brand": "Aura",
+    "price": "295.00",
+    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.3,
+    "is_trending": false
+  },
+  {
+    "id": 18,
+    "name": "Zephyr 128",
+    "brand": "Zephyr",
+    "price": "296.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.8,
+    "is_trending": false
+  },
+  {
+    "id": 19,
+    "name": "Lumina 731",
+    "brand": "Lumina",
+    "price": "286.00",
+    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.3,
+    "is_trending": false
+  },
+  {
+    "id": 20,
+    "name": "Zephyr 354",
+    "brand": "Zephyr",
+    "price": "442.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.6,
+    "is_trending": false
+  },
+  {
+    "id": 21,
+    "name": "Eon 947",
+    "brand": "Eon",
+    "price": "419.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4,
+    "is_trending": false
+  },
+  {
+    "id": 22,
+    "name": "Quantum 637",
+    "brand": "Quantum",
+    "price": "241.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 5,
+    "is_trending": false
+  },
+  {
+    "id": 23,
+    "name": "Nova 302",
+    "brand": "Nova",
+    "price": "234.00",
+    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.1,
+    "is_trending": false
+  },
+  {
+    "id": 24,
+    "name": "Lumina 587",
+    "brand": "Lumina",
+    "price": "115.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4,
+    "is_trending": false
+  },
+  {
+    "id": 25,
+    "name": "Zephyr 853",
+    "brand": "Zephyr",
+    "price": "410.00",
+    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.4,
+    "is_trending": false
+  },
+  {
+    "id": 26,
+    "name": "Lumina 920",
+    "brand": "Lumina",
+    "price": "182.00",
+    "description": "A futuristic blend of leather & musk with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4,
+    "is_trending": false
+  },
+  {
+    "id": 27,
+    "name": "Aura 870",
+    "brand": "Aura",
+    "price": "88.00",
+    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.2,
+    "is_trending": false
+  },
+  {
+    "id": 28,
+    "name": "Vortex 490",
+    "brand": "Vortex",
+    "price": "290.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod1.png",
+    "rating": 4.3,
+    "is_trending": false
+  },
+  {
+    "id": 29,
+    "name": "Eon 156",
+    "brand": "Eon",
+    "price": "163.00",
+    "description": "A futuristic blend of citrus & oriental with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.2,
+    "is_trending": false
+  },
+  {
+    "id": 30,
+    "name": "Zephyr 670",
+    "brand": "Zephyr",
+    "price": "385.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.3,
+    "is_trending": false
+  },
+  {
+    "id": 31,
+    "name": "Obsidian 803",
+    "brand": "Obsidian",
+    "price": "291.00",
+    "description": "A futuristic blend of woody & spicy with a premium glassmorphic presence.",
+    "image": "assets/images/prod3.png",
+    "rating": 4.8,
+    "is_trending": false
+  },
+  {
+    "id": 32,
+    "name": "Zephyr 484",
+    "brand": "Zephyr",
+    "price": "323.00",
+    "description": "A futuristic blend of fresh & aquatic with a premium glassmorphic presence.",
+    "image": "assets/images/prod2.png",
+    "rating": 4.4,
+    "is_trending": false
+  }
+]

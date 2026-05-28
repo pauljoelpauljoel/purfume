@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "user": "Jamie",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 5,
+    "perfume_image": "assets/images/prod2.png"
+  },
+  {
+    "id": 2,
+    "user": "Riley",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 4,
+    "perfume_image": "assets/images/prod2.png"
+  },
+  {
+    "id": 3,
+    "user": "Jordan",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 5,
+    "perfume_image": "assets/images/prod3.png"
+  },
+  {
+    "id": 4,
+    "user": "Casey",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 4,
+    "perfume_image": "assets/images/prod1.png"
+  },
+  {
+    "id": 5,
+    "user": "Casey",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 5,
+    "perfume_image": "assets/images/prod2.png"
+  },
+  {
+    "id": 6,
+    "user": "Alex",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 5,
+    "perfume_image": "assets/images/prod2.png"
+  },
+  {
+    "id": 7,
+    "user": "Casey",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 4,
+    "perfume_image": "assets/images/prod2.png"
+  },
+  {
+    "id": 8,
+    "user": "Alex",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 5,
+    "perfume_image": "assets/images/prod1.png"
+  },
+  {
+    "id": 9,
+    "user": "Casey",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 4,
+    "perfume_image": "assets/images/prod3.png"
+  },
+  {
+    "id": 10,
+    "user": "Morgan",
+    "review": "Amazing fragrance! Truly futuristic.",
+    "rating": 4,
+    "perfume_image": "assets/images/prod1.png"
+  }
+]
