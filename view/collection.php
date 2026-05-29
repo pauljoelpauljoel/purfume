@@ -175,7 +175,7 @@
     <?php include '../common/footer.php'; ?>
 
     <script src="../assets/js/collection.js?v=4"></script>
-    <script src="../assets/js/script.js?v=8"></script>
+    <script src="../assets/js/script.js?v=9"></script>
     <script src="../assets/js/ai_quiz.js?v=4"></script>
 </body>
 </html>

@@ -554,6 +554,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
             }
         });
+
+        // Duplicate all cards to create a perfect infinite loop (for translateX(-50%))
+        const cards = Array.from(reviewTrack.children);
+        cards.forEach(card => {
+            const clone = card.cloneNode(true);
+            reviewTrack.appendChild(clone);
+        });
     }
 });
 

@@ -138,6 +138,6 @@
     <!-- Footer -->
     <?php include '../common/footer.php'; ?>
 
-    <script src="../assets/js/script.js?v=8"></script>
+    <script src="../assets/js/script.js?v=9"></script>
 </body>
 </html>

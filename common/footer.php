@@ -136,25 +136,7 @@
                         <span style="display: block; font-size: 12px; color: var(--neon-cyan); margin-top: 5px;">Obsidian 55</span>
                     </div>
                 </div>
-                <!-- Duplicate for infinite loop -->
-                <div class="review-card">
-                    <div class="stars" style="color: #d4af37; margin-bottom: 10px;">★★★★★</div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 14px; font-style: italic; margin-bottom: 15px; line-height: 1.5;">"The glassmorphic bottle looks incredible on my display, and the scent itself is incredibly long-lasting."</p>
-                    <strong style="color: #fff; font-size: 14px;">- Julian S.</strong>
-                    <div style="margin-top: 15px; text-align: center;">
-                        <img src="../assets/images/prod1.png" style="width: 50px; height: 50px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));">
-                        <span style="display: block; font-size: 12px; color: var(--neon-cyan); margin-top: 5px;">Aura 476</span>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <div class="stars" style="color: #d4af37; margin-bottom: 10px;">★★★★★</div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 14px; font-style: italic; margin-bottom: 15px; line-height: 1.5;">"Absolutely mesmerizing. The notes unfold beautifully throughout the day. Worth every penny for a collector."</p>
-                    <strong style="color: #fff; font-size: 14px;">- Marcus V.</strong>
-                    <div style="margin-top: 15px; text-align: center;">
-                        <img src="../assets/images/prod2.png" style="width: 50px; height: 50px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));">
-                        <span style="display: block; font-size: 12px; color: var(--neon-cyan); margin-top: 5px;">Lumina 721</span>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
