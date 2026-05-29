@@ -1,1 +1,76 @@
-[]
+{
+    "last_updated": "2026-05-29T10:36:30+02:00",
+    "items": {
+        "0": {
+            "name": "joel",
+            "role": "consumer",
+            "stars": "\u2605\u2605\u2605\u2605\u2605",
+            "text": "it is nice ",
+            "date": "2026-05-28T12:30:37.885Z"
+        },
+        "1": {
+            "name": "joel",
+            "role": "",
+            "stars": "\u2605\u2605\u2605\u2606\u2606",
+            "text": "nice",
+            "date": "2026-05-28T18:39:58.766Z",
+            "prodImage": "assets\/images\/hero.png",
+            "prodName": "Zephyr 898"
+        },
+        "2": {
+            "name": "paul",
+            "role": "",
+            "stars": "\u2605\u2606\u2606\u2606\u2606",
+            "text": "it is very poor quality",
+            "date": "2026-05-28T19:06:16.802Z",
+            "prodImage": "assets\/images\/prod3.png",
+            "prodName": "Nova 499"
+        },
+        "3": {
+            "name": "joel",
+            "role": "",
+            "stars": "\u2605\u2605\u2605\u2605\u2605",
+            "text": "it is nice product ",
+            "date": "2026-05-28T19:15:18.911Z",
+            "prodImage": "assets\/images\/prod3.png",
+            "prodName": "Nova 499"
+        },
+        "4": {
+            "name": "paul",
+            "role": "",
+            "stars": "\u2605\u2605\u2606\u2606\u2606",
+            "text": "it is nice product ",
+            "date": "2026-05-28T19:27:17.066Z",
+            "prodImage": "assets\/images\/prod3.png",
+            "prodName": "Nova 499"
+        },
+        "5": {
+            "name": "joel",
+            "role": "",
+            "stars": "\u2605\u2606\u2606\u2606\u2606",
+            "text": "it is very poor quality\n",
+            "date": "2026-05-28T19:37:24.919Z",
+            "prodImage": "assets\/images\/prod2.png",
+            "prodName": "Vortex 315"
+        },
+        "6": {
+            "name": "joel",
+            "role": "",
+            "stars": "\u2605\u2606\u2606\u2606\u2606",
+            "text": "it is very poor product ",
+            "date": "2026-05-29T05:19:13.704Z",
+            "prodImage": "assets\/images\/prod1.png",
+            "prodName": "Lumina 446"
+        },
+        "7": {
+            "name": "ak",
+            "role": "",
+            "stars": "\u2605\u2605\u2605\u2605\u2605",
+            "text": "superb ",
+            "date": "2026-05-29T08:36:30.297Z",
+            "prodImage": "..\/assets\/images\/prod3.png",
+            "prodName": "Nova 499"
+        },
+        "timestamp": "2026-05-29T10:36:30+02:00"
+    }
+}

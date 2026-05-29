@@ -192,6 +192,16 @@
     </div>
 </footer>
 
+<!-- Global Review Modal popup -->
+<div id="review-modal-overlay" class="cart-overlay" onclick="closeReviewModal()"></div>
+<div id="review-modal" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.9); opacity: 0; visibility: hidden; background: rgba(10, 10, 15, 0.95); backdrop-filter: blur(20px); border: 1px solid var(--neon-cyan); padding: 40px; border-radius: 20px; z-index: 1001; width: 90%; max-width: 500px; box-shadow: 0 0 30px rgba(0, 243, 255, 0.2); transition: 0.3s; text-align: center;">
+    <button onclick="closeReviewModal()" style="position: absolute; top: 15px; right: 20px; background: transparent; border: none; color: #fff; font-size: 24px; cursor: pointer;">✖</button>
+    <div id="modal-review-stars" style="color: #d4af37; font-size: 24px; margin-bottom: 15px;"></div>
+    <h3 id="modal-review-name" style="color: #fff; font-size: 24px; margin-bottom: 5px;"></h3>
+    <span id="modal-review-role" style="color: var(--neon-cyan); font-size: 14px; margin-bottom: 20px; display: block;"></span>
+    <p id="modal-review-text" style="color: rgba(255,255,255,0.8); font-size: 18px; font-style: italic; line-height: 1.6;"></p>
+</div>
+
 <!-- Google-Form Style Complaint Modal -->
 <div id="complaint-modal-overlay" class="cart-overlay" onclick="closeComplaintModal()"></div>
 <div id="complaint-modal" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.9); opacity: 0; visibility: hidden; background: rgba(10, 10, 15, 0.95); backdrop-filter: blur(20px); border: 1px solid rgba(212,175,55,0.5); padding: 40px; border-radius: 20px; z-index: 1001; width: 90%; max-width: 500px; box-shadow: 0 0 40px rgba(0, 0, 0, 0.8); transition: 0.3s; color: #fff;">
