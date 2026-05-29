@@ -26,12 +26,8 @@
 
         <!-- Step 3: Payment -->
         <div class="side-cart-body" id="side-cart-payment-step" style="display: none; padding: 20px;">
-            <label style="display: block; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; cursor: pointer; border: 1px solid rgba(212,175,55,0.3); margin-bottom: 10px;">
-                <input type="radio" name="cart_payment" value="UPI" checked style="margin-right: 10px;">
-                <span style="color: #fff;">UPI (Scan & Pay)</span>
-            </label>
             <label style="display: block; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; cursor: pointer; border: 1px solid rgba(212,175,55,0.3);">
-                <input type="radio" name="cart_payment" value="COD" style="margin-right: 10px;">
+                <input type="radio" name="cart_payment" value="COD" checked style="margin-right: 10px;">
                 <span style="color: #fff;">Cash on Delivery</span>
             </label>
         </div>

@@ -40,27 +40,12 @@
                     <textarea id="chk-address" placeholder="Full Delivery Address" required rows="3" style="width: 100%; margin-bottom: 25px; padding: 15px; border-radius: 10px; background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1); color: #fff; resize: vertical;"></textarea>
 
                     <h3 style="color: #fff; margin-bottom: 20px; font-size: 20px;">Payment Method</h3>
-                    <div style="display: flex; gap: 20px; margin-bottom: 20px;">
                         <label style="flex: 1; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; cursor: pointer; border: 1px solid rgba(212,175,55,0.3); display: flex; align-items: center; gap: 10px;">
-                            <input type="radio" name="payment" value="UPI" required onchange="togglePaymentUI()" checked>
-                            <span style="color: #fff;">UPI (Scan & Pay)</span>
-                        </label>
-                        <label style="flex: 1; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; cursor: pointer; border: 1px solid rgba(212,175,55,0.3); display: flex; align-items: center; gap: 10px;">
-                            <input type="radio" name="payment" value="COD" required onchange="togglePaymentUI()">
+                            <input type="radio" name="payment" value="COD" required onchange="togglePaymentUI()" checked>
                             <span style="color: #fff;">Cash on Delivery</span>
                         </label>
                     </div>
 
-                    <!-- UPI Mock UI -->
-                    <div id="upi-ui" style="background: rgba(0, 243, 255, 0.05); border: 1px dashed var(--neon-cyan); border-radius: 10px; padding: 20px; text-align: center; margin-bottom: 25px;">
-                        <p style="color: var(--neon-cyan); margin-bottom: 10px;">Enter your UPI PIN to authenticate</p>
-                        <div style="display: flex; justify-content: center; gap: 10px;">
-                            <input type="password" maxlength="1" style="width: 40px; height: 40px; text-align: center; font-size: 24px; border-radius: 5px; border: 1px solid var(--neon-cyan); background: transparent; color: #fff;">
-                            <input type="password" maxlength="1" style="width: 40px; height: 40px; text-align: center; font-size: 24px; border-radius: 5px; border: 1px solid var(--neon-cyan); background: transparent; color: #fff;">
-                            <input type="password" maxlength="1" style="width: 40px; height: 40px; text-align: center; font-size: 24px; border-radius: 5px; border: 1px solid var(--neon-cyan); background: transparent; color: #fff;">
-                            <input type="password" maxlength="1" style="width: 40px; height: 40px; text-align: center; font-size: 24px; border-radius: 5px; border: 1px solid var(--neon-cyan); background: transparent; color: #fff;">
-                        </div>
-                    </div>
 
                     <button type="submit" id="btn-place-order" class="btn-primary" style="width: 100%; padding: 15px; border-radius: 30px; font-size: 16px; border: none; font-weight: bold; margin-top: 10px;">Verify & Place Order</button>
                 </form>

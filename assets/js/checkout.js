@@ -9,17 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function togglePaymentUI() {
-    const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
-    const upiUI = document.getElementById('upi-ui');
-    const btnPlaceOrder = document.getElementById('btn-place-order');
-
-    if (paymentMethod === 'UPI') {
-        upiUI.style.display = 'block';
-        btnPlaceOrder.innerText = 'Verify & Place Order';
-    } else {
-        upiUI.style.display = 'none';
-        btnPlaceOrder.innerText = 'Place Order (COD)';
-    }
+    // Only COD is available now
 }
 
 async function renderCheckoutItems() {
@@ -100,45 +90,20 @@ window.processCheckout = async function(e) {
     };
     localStorage.setItem('order_details', JSON.stringify(orderDetails));
     
-    if (paymentMethod === 'UPI') {
-        btn.innerText = 'Authenticating UPI PIN...';
-        btn.style.opacity = '0.8';
-        
-        setTimeout(() => {
-            btn.innerText = 'Payment Verified! Redirecting...';
-            btn.style.background = '#2ed573';
-            btn.style.color = '#fff';
-            
-            // Store order in JSON database
-            fetch('api_store.php', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ type: 'orders', payload: orderDetails })
-            }).catch(console.error);
+    btn.innerText = 'Processing Order...';
+    btn.style.opacity = '0.8';
+    
+    // Store order in JSON database
+    fetch('api_store.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'orders', payload: orderDetails })
+    }).catch(console.error);
 
-            if (typeof showToast === 'function') showToast('Order placed successfully! 🎉');
-            localStorage.setItem('cart', '[]'); // Clear cart
+    if (typeof showToast === 'function') showToast('Order placed successfully! 🎉');
+    localStorage.setItem('cart', '[]'); // Clear cart
 
-            setTimeout(() => {
-                window.location.href = 'bill.php';
-            }, 1000);
-        }, 2000);
-    } else {
-        btn.innerText = 'Processing Order...';
-        btn.style.opacity = '0.8';
-        
-        // Store order in JSON database
-        fetch('api_store.php', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ type: 'orders', payload: orderDetails })
-        }).catch(console.error);
-
-        if (typeof showToast === 'function') showToast('Order placed successfully! 🎉');
-        localStorage.setItem('cart', '[]'); // Clear cart
-
-        setTimeout(() => {
-            window.location.href = 'bill.php';
-        }, 1500);
-    }
+    setTimeout(() => {
+        window.location.href = 'bill.php';
+    }, 1500);
 };
