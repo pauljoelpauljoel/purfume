@@ -146,6 +146,6 @@
     <!-- Footer -->
     <?php include '../common/footer.php'; ?>
 
-    <script src="../assets/js/script.js?v=4"></script>
+    <script src="../assets/js/script.js?v=8"></script>
 </body>
 </html>

@@ -523,13 +523,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (userReviews.length > 0) {
             userReviews.forEach(rev => {
                 const roleText = rev.role ? rev.role.replace(/'/g, "\\'") : '';
+                let imagePath = rev.prodImage || '../assets/images/hero.png';
+                if (imagePath && !imagePath.startsWith('../') && imagePath.startsWith('assets/')) {
+                    imagePath = '../' + imagePath;
+                }
                 const html = `
                     <div class="review-card" onclick="openReviewModal('${rev.name.replace(/'/g, "\\'")}', '${roleText}', '${rev.stars}', '${rev.text.replace(/'/g, "\\'")}')" style="cursor: pointer;">
                         <div class="stars" style="color: #d4af37; margin-bottom: 10px;">${rev.stars}</div>
                         <p style="color: rgba(255,255,255,0.7); font-size: 14px; font-style: italic; margin-bottom: 15px; line-height: 1.5; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">"${rev.text}"</p>
                         <strong style="color: #fff; font-size: 14px;">- ${rev.name}</strong>
                         <div style="margin-top: 15px; text-align: center;">
-                            <img src="${rev.prodImage || '../assets/images/hero.png'}" style="width: 50px; height: 50px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));">
+                            <img src="${imagePath}" style="width: 50px; height: 50px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));">
                             <span style="display: block; font-size: 12px; color: var(--neon-cyan); margin-top: 5px;">${rev.prodName || 'AuraSpace Perfume'}</span>
                         </div>
                     </div>
